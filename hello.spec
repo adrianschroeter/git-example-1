@@ -26,9 +26,9 @@ Group:          Development/Tools/Other
 Version:        2.10
 Release:        0
 Url:            http://www.gnu.org/software/hello
-#!RemoteAsset
+#!RemoteAsset 31e066137a962676e89f69d1b65382de95a7ef7d914b8cb956f41ea72e0f516b
 Source0:        http://ftp.gnu.org/pub/gnu/hello/hello-%{version}.tar.gz
-#!RemoteAsset
+#!RemoteAsset 4ea69de913428a4034d30dcdcb34ab84f5c4a76acf9040f3091f0d3fac411b60
 Source1:        http://ftp.gnu.org/pub/gnu/hello/hello-%{version}.tar.gz.sig
 # https://savannah.gnu.org/project/memberlist-gpgkeys.php?group=hello&download=1
 Source2:        %{name}.keyring
